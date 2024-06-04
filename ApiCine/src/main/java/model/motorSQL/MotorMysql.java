@@ -10,12 +10,12 @@ public class MotorMysql {
     private PreparedStatement pstmt;
     private ResultSet rs;
 
-    private static final String URL = "jdbc:mysql://cine.cmbymi9szxfy.us-east-1.rds.amazonaws.com/Cine";
+    private static final String URL = "jdbc:mysql://cine.xxxxxxxx.us-east-1.rds.amazonaws.com/Cine";
     private static final String CONTROLADOR = "com.mysql.jdbc.Driver";
     //jdbc:derby://localhost:1527/netflix
     //private static final String URL = "jdbc:derby://localhost:1527/netflix";
-    private static final String USER = "admin";
-    private static final String PASS = "admin1234";
+    private static final String USER = "xxxxxxxxxxxx";
+    private static final String PASS = "xxxxxxxxxxxxxxxxxxx";
 
     public MotorMysql(){
         properties = new Properties();
